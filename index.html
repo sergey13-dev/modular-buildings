@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="images/favicons/favicon-48x48.png">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#fff">
+    <meta name="application-name" content="My App">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="images/favicons/apple-touch-icon-1024x1024.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="My App">
+    <link rel="icon" type="image/png" sizes="228x228" href="images/favicons/coast-228x228.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <link rel="yandex-tableau-widget" href="images/favicons/yandex-browser-manifest.json">
+
+    <title>Модульные здания</title>
+
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="content">
+
+            <header class="header">
+
+                <div class="container-fluid">
+
+                    <div class="header__wrap">
+
+                        <a class="logo" href="#">
+                            <picture class="logo__images">
+                                <source srcset="images/header/logo-small.svg" alt="mobile" media="(max-width: 1250px)">
+                                <img src="images/header/logo-large.svg" alt="Логотип">
+                            </picture>
+                        </a>
+
+                        <nav class="menu">
+
+                            <a class="menu__mobile" href="#">
+                                <div class="menu__mobile-btn">
+                                    <div class="menu__mobile-row"></div>
+                                    <div class="menu__mobile-row"></div>
+                                    <div class="menu__mobile-row"></div>
+                                </div>
+                                <p class="menu__mobile-title">Меню</p>
+                            </a>
+
+                            <ul class="menu__list">
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#advantages">Преимущества</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#solution">Что мы предлагаем</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#examples">Портфолио</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#manufacture">Этапы работ</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#questions">Вопросы</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+
+                        <div class="header__phone">
+                            <a class="header__phone-link" href="tel:0800330463">0 800 33 04 63</a>
+                            <p class="header__phone-text">Бесплатно по Украине</p>
+                        </div>
+
+                        <a class="header__link button" href="#back-call">Вам перезвонить?</a>
+
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <section class="building">
+
+                <div class="container-fluid">
+
+                    <div class="building__wrap">
+                        <h1 class="building__title wow animate__animated animate__backInLeft">модульные здания</h1>
+
+                        <div class="building__btn">
+                            <a class="building__btn-calculator button-calculator" href="#calculation">
+                                бесплатный расчет проекта
+                            </a>
+                            <a class="building__btn-book button-book" href="#catalog">получить каталог</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="building__desc">
+
+                    <div class="building__info">
+                        <div class="building__production">
+                            <img class="building__production-img" src="images/building/production.svg"
+                                alt="Производим за 10 дней">
+                            <p class="building__production-text">Производим за 10 дней</p>
+                        </div>
+
+                        <div class="building__installation">
+                            <img class="building__installation-img" src="images/building/installation.svg"
+                                alt="Устанавливаем за 1 час">
+                            <p class="building__installation-text">Устанавливаем за 1 час</p>
+                        </div>
+                    </div>
+
+                    <div class="building__inner">
+
+                        <div class="building__item building__item--one wow animate__animated animate__backInDown">
+                            <img class="building__item-img" src="images/building/module-building.svg"
+                                alt="Модульные здания">
+                            <div class="building__item-desc">Модульные здания</div>
+                        </div>
+
+                        <div class="building__item building__item--two wow animate__animated animate__backInDown">
+                            <img class="building__item-img" src="images/building/module-household.svg" alt="Бытовки">
+                            <div class="building__item-desc">Бытовки</div>
+                        </div>
+
+                        <div class="building__item building__item--three wow animate__animated animate__backInDown">
+                            <img class="building__item-img" src="images/building/module-office.svg" alt="Офисы">
+                            <div class="building__item-desc">Офисы</div>
+                        </div>
+
+                        <div class="building__item building__item--four wow animate__animated animate__backInDown">
+                            <img class="building__item-img" src="images/building/module-suburban.svg"
+                                alt="Дачные домики">
+                            <div class="building__item-desc">Дачные домики</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="solution" id="solution">
+
+                <div class="container-fluid">
+
+                    <div class="solution__inner">
+
+                        <div class="solution__info wow animate__animated animate__backInLeft">
+
+                            <h3 class="solution__title title">мы предлагаем</h3>
+
+                            <p class="solution__info-text">
+                                Гибкие, комплексные решения, созданные с учётом реалий украинского бизнеса, эксклюзивно
+                                под ваш проект. Изготовление, доставка, установка и монтаж зданий в 1, 2, 3 этажа с
+                                полной комплектацией и подключением коммуникаций в очень сжатые сроки.
+                            </p>
+
+                            <ul class="solution__info-list">
+                                <li class="solution__info-item">Здание под ключ</li>
+                                <li class="solution__info-item">Индивидуальный подход</li>
+                                <li class="solution__info-item"><span>Производство модулей за 7 дней</span></li>
+                                <li class="solution__info-item">Срок эксплуатации до 20 лет</li>
+                                <li class="solution__info-item"><span>Бесплатное проектирование</span></li>
+                                <li class="solution__info-item">Ваш личный менеджер</li>
+                                <li class="solution__info-item"><span>Гарантия 24 месяца</span></li>
+                                <li class="solution__info-item">Техническое обслуживание</li>
+                                <li class="solution__info-item">Материалы и комплектующие от производителя</li>
+                            </ul>
+
+                            <a class="solution__info-link button-calculator" href="#calculation">
+                                бесплатный расчет проекта
+                            </a>
+
+                        </div>
+
+                        <div class="solution__wrap wow animate__animated animate__backInRight">
+
+                            <div class="solution__desc">
+
+                                <div class="tabs-wrapper solution__wrapper">
+
+                                    <div class="tabs solution__tabs">
+                                        <a class="tab tab--active solution__tab solution__tab--active"
+                                            href="#tab-1">модульные здания</a>
+                                        <a class="tab solution__tab" href="#tab-2">бытовки</a>
+                                        <a class="tab solution__tab" href="#tab-3">офисы</a>
+                                        <a class="tab solution__tab" href="#tab-4">дачные домики</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="tabs-container solution__tabs-container">
+                                    <div id="tab-1"
+                                        class="tabs-content tabs-content--active solution__tabs-content solution__tabs-content--active">
+
+                                        <div class="solution__building">
+                                            <ul class="solution__building-list">
+                                                <li class="solution__building-item">Гостиницы и общежития</li>
+                                                <li class="solution__building-item">Мобильные дома и офисы</li>
+                                                <li class="solution__building-item">Базы отдыха и дачные домики</li>
+                                                <li class="solution__building-item">Автомойки</li>
+                                                <li class="solution__building-item">СТО</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                    <div id="tab-2" class="tabs-content solution__tabs-content">
+
+                                        <div class="solution__household">
+                                            <ul class="solution__household-list">
+                                                <li class="solution__household-item">Магазины</li>
+                                                <li class="solution__household-item">Гаражи</li>
+                                                <li class="solution__household-item">Склады</li>
+                                                <li class="solution__household-item">Рабочие цеха</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                    <div id="tab-3" class="tabs-content solution__tabs-content">
+
+                                        <div class="solution__office">
+                                            <ul class="solution__office-list">
+                                                <li class="solution__office-item">Мини-офисы</li>
+                                                <li class="solution__office-item">Модульные детские сады</li>
+                                                <li class="solution__office-item">Модульные школы</li>
+                                                <li class="solution__suburban-item">Модульные столовые</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                    <div id="tab-4" class="tabs-content solution__tabs-content">
+                                        <div class="solution__suburban">
+                                            <ul class="solution__suburban-list">
+                                                <li class="solution__suburban-item">Садовые дома</li>
+                                                <li class="solution__suburban-item">Вагончики для дачи</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="solution__slider">
+                                <img class="solution__slider-img" src="images/solution/solution-one.jpg"
+                                    alt="slider images one">
+                                <img class="solution__slider-img" src="images/solution/solution-two.jpg"
+                                    alt="slider images two">
+                                <img class="solution__slider-img" src="images/solution/solution-one.jpg"
+                                    alt="slider images one">
+                                <img class="solution__slider-img" src="images/solution/solution-two.jpg"
+                                    alt="slider images two">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <div class="banner">
+
+                <div class="container">
+
+                    <div class="banner__inner">
+
+                        <div class="banner__item">
+                            <p class="banner__item-title">2 <span>года</span></p>
+                            <p class="banner__item-desc">гарантия на здание</p>
+                        </div>
+
+                        <div class="banner__item">
+                            <p class="banner__item-title">24/7</p>
+                            <p class="banner__item-desc">круглосуточная поддержка клиентов</p>
+                        </div>
+
+                        <div class="banner__item">
+                            <p class="banner__item-title"><span>до</span> 20</p>
+                            <p class="banner__item-desc">готовых объектов в месяц</p>
+                        </div>
+
+                        <div class="banner__item">
+                            <p class="banner__item-title">3000+ <span>м<sup>2</sup></span></p>
+                            <p class="banner__item-desc">производственных мощностей</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <section class="advantages" id="advantages">
+
+                <div class="container-fluid">
+
+                    <div class="advantages__top">
+                        <h3 class="advantages__title title">преимущества модульных зданий</h3>
+                        <p class="advantages__subtitle">от SpetsBud Trade</p>
+                        <p class="advantages__top-text">
+                            Технология модульного здания позволяет в короткие сроки изготовить
+                            и установить мобильный офис, бытовку, общежитие, дачный домик
+                            или любое другое жилое помещение, а также подключить все необходимые коммуникациями для
+                            комфортного использования в любое время года.
+                        </p>
+                    </div>
+
+                    <div class="advantages__inner">
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/advantages-icon-1.svg"
+                                alt="Скорость изготовления">
+                            <p class="advantages__item-title">Скорость изготовления</p>
+                            <p class="advantages__item-desc">
+                                Ваш личный менеджер курирует всеми процессами – от поставки материалов на склад до сдачи
+                                готового объекта, что позволяет нам выполнять заказ в срок.
+                            </p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/advantages-icon-2.svg"
+                                alt="Гибкость">
+                            <p class="advantages__item-title">Гибкость</p>
+                            <p class="advantages__item-desc">
+                                Наш опыт и мобильность производства позволяют вносить изменения в проект на
+                                производстве, не нарушая целостность конструкции.
+                            </p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/advantages-icon-3.svg"
+                                alt="высокий сервис">
+                            <p class="advantages__item-title">высокий сервис</p>
+                            <p class="advantages__item-desc">
+                                Обращаясь к нам, вы получите четкий алгоритм согласования проекта, а также развернутую
+                                схему этапов производства
+                                и высокий сервис обслуживания.
+                            </p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/advantages-icon-4.svg"
+                                alt="низкая стоимость">
+                            <p class="advantages__item-title">низкая стоимость</p>
+                            <p class="advantages__item-desc">
+                                Многолетний опыт позволяет нам создавать как простые и экономичные решения,
+                                так и более дорогостоящие и эксклюзивные проекты.
+                            </p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/advantages-icon-5.svg"
+                                alt="Любое наполнение">
+                            <p class="advantages__item-title">Любое наполнение</p>
+                            <p class="advantages__item-desc">
+                                Мы укомплектуем здание
+                                “под ключ” всеми необходимыми элементами интерьера
+                                и экстерьера, исходя из ваших пожеланий.
+                            </p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/advantages-icon-6.svg"
+                                alt="работаем открыто">
+                            <p class="advantages__item-title">работаем открыто</p>
+                            <p class="advantages__item-desc">
+                                Предоставляем нашим клиентам доступ к производству, а также фото и видео материалы о
+                                процессе изготовления.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <p class="advantages__text">...А ещё это выглядит стильно и современно!</p>
+
+                </div>
+
+            </section>
+
+
+
+            <div class="filling">
+
+                <div class="container-full">
+
+                    <div class="filling__inner">
+
+                        <div class="filling__slider">
+                            <img class="filling__slider-item" src="images/filling/slider-img.jpg" alt="images">
+                            <img class="filling__slider-item" src="images/filling/slider-img.jpg" alt="images">
+                            <img class="filling__slider-item" src="images/filling/slider-img.jpg" alt="images">
+                            <img class="filling__slider-item" src="images/filling/slider-img.jpg" alt="images">
+                            <img class="filling__slider-item" src="images/filling/slider-img.jpg" alt="images">
+                            <img class="filling__slider-item" src="images/filling/slider-img.jpg" alt="images">
+                        </div>
+
+                        <div class="filling__desc wow animate__animated animate__backInRight">
+                            <p class="filling__desc-title">
+                                Индивидуальное наполнение и отделка здания по вашему желанию
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <section class="comfort">
+
+                <div class="container-fluid">
+
+                    <div class="comfort__inner">
+
+                        <div class="comfort__info wow animate__animated animate__backInLeft">
+
+                            <h3 class="comfort__title title">с нами комфортно и надёжно</h3>
+
+                            <p class="comfort__info-text">
+                                SpetsBud Trade – это более 200 выполненных объектов в год, 1000 индивидуальных расчётов
+                                модульных сооружений и нестандартных решений. Обращаясь к нам, вы получите комплексное и
+                                эксклюзивное решение по строительству здания под ваш проект, высокий сервис, а также
+                                помощь в подборе и установке необходимой комплектации.
+                            </p>
+
+                            <p class="comfort__info-text">
+                                Блок-модульные здания доставляются на локацию с уже готовым наполнением: сантехникой,
+                                мебелью, бытовой техникой и с подключением всех коммуникаций, исходя из ваших
+                                потребностей и пожеланий. Монтаж блок-контейнеров происходит на заводе-производителе.
+                                Вам остается лишь подготовить территорию для установки здания.
+                            </p>
+
+                            <a class="comfort__play" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                                <img class="comfort__play-img" src="images/icon/play.svg" alt="play">
+                                <p class="comfort__play-title">Смотреть видео с производства</p>
+                            </a>
+
+                            <a class="comfort__link button-arrow" href="#making">приехать на производство</a>
+
+                        </div>
+
+                        <div class="comfort__desc">
+
+                            <p class="comfort__desc-title">
+                                Вы можете приехать к нам на производство и убедиться в
+                                качестве наших зданий
+                            </p>
+
+                            <ul class="comfort__desc-list">
+                                <li class="comfort__desc-item">
+                                    Монтаж выполняют квалифицированные инженеры-проектировщики
+                                </li>
+
+                                <li class="comfort__desc-item">
+                                    Только сертифицированные материалы и многоступенчатый контроль качества
+                                </li>
+
+                                <li class="comfort__desc-item">
+                                    Гарантийное и постгарантийное обслуживание
+                                </li>
+
+                                <li class="comfort__desc-item">
+                                    Реализация сложных и нестандартных решений
+                                </li>
+
+                                <li class="comfort__desc-item">
+                                    Индивидуальный подход к каждому проекту
+                                </li>
+
+                                <li class="comfort__desc-item">
+                                    Собственное производство
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+            <section class="examples" id="examples">
+
+                <div class="container-fluid">
+
+                    <div class="examples__top">
+                        <h3 class="examples__title title">примеры <br> наших работ</h3>
+                        <div class="examples__top-dots"></div>
+                    </div>
+
+                    <div class="container">
+
+                        <div class="examples__slider">
+
+                            <div class="examples__wrap">
+
+                                <div class="examples__item">
+                                    <img class="examples__item-img" src="images/examples/examples-img-1.jpg"
+                                        alt="Модульный дом у моря">
+                                    <div class="examples__info column-height">
+                                        <p class="examples__info-title">Модульный дом у моря</p>
+                                        <ul class="examples__info-list">
+                                            <li class="examples__info-item">
+                                                Этажность — 2 этажа
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Общая площадь — 72 м<sup>2</sup>
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Наружная отделка — виниловый сайдинг
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Внутренняя отделка — деревянная вагонка
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Планировка — 4 спальник, кухня студия, с/у
+                                            </li>
+                                        </ul>
+
+                                        <a class="examples__play" data-fancybox
+                                            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                                            <img class="examples__play-img" src="images/icon/play.svg" alt="play">
+                                            <p class="examples__play-title">Смотреть видео-обзор</p>
+                                        </a>
+
+                                        <a class="examples__link button-arrow" href="#back-call">Подробнее о проекте</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="examples__wrap">
+
+                                <div class="examples__item">
+                                    <img class="examples__item-img" src="images/examples/examples-img-2.jpg"
+                                        alt="Дачный домик">
+                                    <div class="examples__info column-height">
+                                        <p class="examples__info-title">Дачный домик</p>
+                                        <ul class="examples__info-list">
+                                            <li class="examples__info-item">
+                                                Этажность — 1 этаж
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Общая площадь помещения — 25 м<sup>2</sup>
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Терраса — 5 м<sup>2</sup>
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Наружная отделка — виниловый сайдинг
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Внутренняя отделка — деревянная вагонка
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Планировка — 2 комнаты, кухня, с/у
+                                            </li>
+                                        </ul>
+
+                                        <a class="examples__play" data-fancybox
+                                            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                                            <img class="examples__play-img" src="images/icon/play.svg" alt="play">
+                                            <p class="examples__play-title">Смотреть видео-обзор</p>
+                                        </a>
+
+                                        <a class="examples__link button-arrow" href="#back-call">Подробнее о проекте</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="examples__wrap">
+
+                                <div class="examples__item">
+                                    <img class="examples__item-img" src="images/examples/examples-img-3.jpg"
+                                        alt="дачная бытовка">
+                                    <div class="examples__info column-height">
+                                        <p class="examples__info-title">дачная бытовка</p>
+                                        <ul class="examples__info-list">
+                                            <li class="examples__info-item">
+                                                Размер — 2,5*6 м
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Внутрення отделка — мдф плита
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Комплектация — душевая кабинка, унитаз, кондиционер
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Срок изготовления — 7 рабочих дней
+                                            </li>
+                                        </ul>
+
+                                        <a class="examples__play" data-fancybox
+                                            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                                            <img class="examples__play-img" src="images/icon/play.svg" alt="play">
+                                            <p class="examples__play-title">Смотреть видео-обзор</p>
+                                        </a>
+
+                                        <a class="examples__link button-arrow" href="#back-call">Подробнее о проекте</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="examples__wrap">
+
+                                <div class="examples__item">
+                                    <img class="examples__item-img" src="images/examples/examples-img-1.jpg"
+                                        alt="Модульный дом у моря">
+                                    <div class="examples__info column-height">
+                                        <p class="examples__info-title">Модульный дом у моря</p>
+                                        <ul class="examples__info-list">
+                                            <li class="examples__info-item">
+                                                Этажность — 2 этажа
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Общая площадь — 72 м<sup>2</sup>
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Наружная отделка — виниловый сайдинг
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Внутренняя отделка — деревянная вагонка
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Планировка — 4 спальник, кухня студия, с/у
+                                            </li>
+                                        </ul>
+
+                                        <a class="examples__play" data-fancybox
+                                            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                                            <img class="examples__play-img" src="images/icon/play.svg" alt="play">
+                                            <p class="examples__play-title">Смотреть видео-обзор</p>
+                                        </a>
+
+                                        <a class="examples__link button-arrow" href="#back-call">Подробнее о проекте</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="examples__wrap">
+
+                                <div class="examples__item">
+                                    <img class="examples__item-img" src="images/examples/examples-img-2.jpg"
+                                        alt="Дачный домик">
+                                    <div class="examples__info column-height">
+                                        <p class="examples__info-title">Дачный домик</p>
+                                        <ul class="examples__info-list">
+                                            <li class="examples__info-item">
+                                                Этажность — 1 этаж
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Общая площадь помещения — 25 м<sup>2</sup>
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Терраса — 5 м<sup>2</sup>
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Наружная отделка — виниловый сайдинг
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Внутренняя отделка — деревянная вагонка
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Планировка — 2 комнаты, кухня, с/у
+                                            </li>
+                                        </ul>
+
+                                        <a class="examples__play" data-fancybox
+                                            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                                            <img class="examples__play-img" src="images/icon/play.svg" alt="play">
+                                            <p class="examples__play-title">Смотреть видео-обзор</p>
+                                        </a>
+
+                                        <a class="examples__link button-arrow" href="#back-call">Подробнее о проекте</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="examples__wrap">
+
+                                <div class="examples__item">
+                                    <img class="examples__item-img" src="images/examples/examples-img-3.jpg"
+                                        alt="дачная бытовка">
+                                    <div class="examples__info column-height">
+                                        <p class="examples__info-title">дачная бытовка</p>
+                                        <ul class="examples__info-list">
+                                            <li class="examples__info-item">
+                                                Размер — 2,5*6 м
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Внутрення отделка — мдф плита
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Комплектация — душевая кабинка, унитаз, кондиционер
+                                            </li>
+                                            <li class="examples__info-item">
+                                                Срок изготовления — 7 рабочих дней
+                                            </li>
+                                        </ul>
+
+                                        <a class="examples__play" data-fancybox
+                                            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                                            <img class="examples__play-img" src="images/icon/play.svg" alt="play">
+                                            <p class="examples__play-title">Смотреть видео-обзор</p>
+                                        </a>
+
+                                        <a class="examples__link button-arrow" href="#back-call">Подробнее о проекте</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="container">
+
+                        <div class="examples__btn">
+                            <a class="examples__btn-calculator button-calculator" href="#calculation">
+                                бесплатный расчет проекта
+                            </a>
+                            <a class="examples__btn-book button-black" href="#catalog">получить каталог</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="social-networks">
+
+                <h3 class="social-networks__title">смотрите больше</h3>
+
+                <div class="container-full">
+
+                    <div class="social-networks__inner">
+
+                        <div class="social-networks__box">
+                            <p class="social-networks__box-subtitle">примеров работ</p>
+
+                            <div class="social-networks__info">
+                                <p class="social-networks__info-text">у нас в социальных сетях</p>
+                                <img class="social-networks__info-img" src="images/social-networks/arrow.svg"
+                                    alt="arrow">
+                            </div>
+                        </div>
+
+                        <div class="social-networks__column">
+
+                            <a class="social-networks__item" href="#">
+                                <div class="social-networks__item-img">
+                                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.67188 0.523438H21.3281C23.7656 0.570313 25.8047 1.41406 27.4453 3.05469C29.0859 4.69531 29.9297 6.73437 29.9766 9.17188V21.8281C29.9297 24.2656 29.0859 26.3047 27.4453 27.9453C25.8047 29.5859 23.7656 30.4297 21.3281 30.4766H8.67188C6.23438 30.4297 4.19531 29.5859 2.55469 27.9453C0.914062 26.3047 0.0703125 24.2656 0.0234375 21.8281V9.17188C0.0703125 6.73437 0.914062 4.69531 2.55469 3.05469C4.19531 1.41406 6.23438 0.570313 8.67188 0.523438ZM8.39062 3.47656C6.84375 3.52344 5.55469 4.0625 4.52344 5.09375C3.53906 6.07812 3.02344 7.34375 2.97656 8.89062V22.1094C3.02344 23.6562 3.53906 24.9453 4.52344 25.9766C5.55469 26.9609 6.84375 27.4766 8.39062 27.5234H21.6094C23.1562 27.4766 24.4219 26.9609 25.4062 25.9766C26.4375 24.9453 26.9766 23.6562 27.0234 22.1094V8.89062C26.9766 7.34375 26.4375 6.07812 25.4062 5.09375C24.4219 4.0625 23.1562 3.52344 21.6094 3.47656H8.39062ZM22.875 5.72656C23.3906 5.77344 23.8125 5.98438 24.1406 6.35938C24.5156 6.6875 24.7031 7.10938 24.7031 7.625C24.7031 8.14062 24.5156 8.58594 24.1406 8.96094C23.8125 9.28906 23.3906 9.45312 22.875 9.45312C22.3594 9.45312 21.9141 9.28906 21.5391 8.96094C21.2109 8.58594 21.0469 8.14062 21.0469 7.625C21.0469 7.10938 21.2109 6.6875 21.5391 6.35938C21.9141 5.98438 22.3594 5.77344 22.875 5.72656ZM15 7.97656C17.1094 8.02344 18.8672 8.77344 20.2734 10.2266C21.7266 11.6328 22.4766 13.3906 22.5234 15.5C22.4766 17.6094 21.7266 19.3906 20.2734 20.8438C18.8672 22.25 17.1094 22.9766 15 23.0234C12.8906 22.9766 11.1094 22.25 9.65625 20.8438C8.25 19.3906 7.52344 17.6094 7.47656 15.5C7.52344 13.3906 8.25 11.6328 9.65625 10.2266C11.1094 8.77344 12.8906 8.02344 15 7.97656ZM15 11C13.7344 11.0469 12.6797 11.4922 11.8359 12.3359C10.9922 13.1797 10.5703 14.2344 10.5703 15.5C10.5703 16.7656 10.9922 17.8203 11.8359 18.6641C12.6797 19.5078 13.7344 19.9297 15 19.9297C16.2656 19.9297 17.3203 19.5078 18.1641 18.6641C19.0078 17.8203 19.4297 16.7656 19.4297 15.5C19.4297 14.2344 19.0078 13.1797 18.1641 12.3359C17.3203 11.4922 16.2656 11.0469 15 11Z"
+                                            fill="black" />
+                                    </svg>
+                                </div>
+                                <p class="social-networks__item-title">Instagram</p>
+                            </a>
+
+                            <a class="social-networks__item" href="#">
+                                <div class="social-networks__item-img">
+                                    <svg width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.52344 0H24.4766C25.3203 0 26.0234 0.304687 26.5859 0.914062C27.1953 1.47656 27.5 2.17969 27.5 3.02344V23.9766C27.5 24.8203 27.1953 25.5469 26.5859 26.1562C26.0234 26.7188 25.3203 27 24.4766 27H3.52344C2.67969 27 1.95312 26.7188 1.34375 26.1562C0.78125 25.5469 0.5 24.8203 0.5 23.9766V3.02344C0.5 2.17969 0.78125 1.47656 1.34375 0.914062C1.95312 0.304687 2.67969 0 3.52344 0ZM23 3.02344H19.2734C17.7734 3.02344 16.5312 3.53906 15.5469 4.57031C14.5625 5.55469 14.0469 6.77344 14 8.22656V12.0234H10.9766V16.5234H14V27H18.5V16.5234H23V12.0234H18.5V9C18.5 8.57812 18.6406 8.22656 18.9219 7.94531C19.2031 7.66406 19.5547 7.52344 19.9766 7.52344H23V3.02344Z"
+                                            fill="black" />
+                                    </svg>
+                                </div>
+                                <p class="social-networks__item-title">Facebook</p>
+                            </a>
+
+                            <a class="social-networks__item" href="#">
+                                <div class="social-networks__item-img">
+                                    <svg width="28" height="31" viewBox="0 0 28 31" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0)">
+                                            <path
+                                                d="M28.0284 7.76213C26.2052 7.76213 24.5194 7.1739 23.1707 6.18545C21.6223 5.05145 20.5047 3.3838 20.1113 1.46753C20.0114 0.994523 19.9614 0.503326 19.9552 0H14.7416V13.8324L14.7354 21.4065C14.7354 23.4319 13.3743 25.1481 11.4949 25.7545C10.9454 25.9304 10.3585 26.0153 9.74662 25.9789C8.95991 25.9364 8.22939 25.706 7.58628 25.3361C6.22513 24.5477 5.3073 23.1166 5.28232 21.4732C5.24486 18.9141 7.37399 16.822 10.0089 16.822C10.5271 16.822 11.0266 16.9069 11.4949 17.0524V13.2805V11.9221C11.0016 11.8494 10.5021 11.813 9.99013 11.813C7.10551 11.813 4.40819 12.9773 2.47887 15.0755C1.03031 16.6583 0.156182 18.6837 0.0188187 20.8001C-0.156007 23.5835 0.892948 26.2336 2.92842 28.1862C3.22812 28.4712 3.54031 28.7381 3.87123 28.9867C5.61949 30.2905 7.74862 31 9.99638 31C10.5021 31 11.0079 30.9636 11.5011 30.8908C13.599 30.5876 15.5346 29.6538 17.0643 28.1862C18.9437 26.3852 19.9802 23.9898 19.9927 21.4429L19.9677 10.1272C20.8668 10.8003 21.8408 11.3521 22.896 11.7827C24.5319 12.4558 26.2677 12.7893 28.0471 12.7893V9.11444V7.76213H28.0284Z"
+                                                fill="black" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0">
+                                                <rect width="28" height="31" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <p class="social-networks__item-title">TikTok</p>
+                            </a>
+
+                            <a class="social-networks__item" href="#">
+                                <div class="social-networks__item-img">
+                                    <svg width="32" height="25" viewBox="0 0 32 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.9766 19.25V5.75L21.9766 12.5L12.9766 19.25ZM28.0234 1.10938C27.4609 0.96875 26.0312 0.828125 23.7344 0.6875C21.4375 0.546875 18.8594 0.476562 16 0.476562C13.1406 0.476562 10.5625 0.546875 8.26562 0.6875C5.96875 0.78125 4.53906 0.898438 3.97656 1.03906C2.85156 1.55469 2.05469 2.89062 1.58594 5.04688C1.16406 7.20313 0.953125 9.6875 0.953125 12.5C0.953125 15.2656 1.16406 17.75 1.58594 19.9531C2.05469 22.1094 2.85156 23.4219 3.97656 23.8906C4.53906 24.0781 5.96875 24.2422 8.26562 24.3828C10.5625 24.4766 13.1406 24.5234 16 24.5234C18.8594 24.5234 21.4375 24.4766 23.7344 24.3828C26.0312 24.2422 27.4609 24.0781 28.0234 23.8906C29.1484 23.4219 29.9219 22.1094 30.3438 19.9531C30.8125 17.75 31.0469 15.2656 31.0469 12.5C31.0469 9.6875 30.8125 7.20313 30.3438 5.04688C29.9219 2.89062 29.1484 1.57813 28.0234 1.10938Z"
+                                            fill="black" />
+                                    </svg>
+                                </div>
+                                <p class="social-networks__item-title">YouTube</p>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="manufacture" id="manufacture">
+
+                <div class="container-fluid">
+                    <h3 class="manufacture__title title">как все происходит?</h3>
+                </div>
+
+                <div class="container-full">
+
+                    <div class="manufacture__inner">
+
+                        <div class="manufacture__picture wow animate__animated animate__backInLeft">
+                            <img class="manufacture__images" src="images/manufacture/manufacture-bg.jpg"
+                                alt="как все происходит">
+                        </div>
+
+                        <div class="manufacture__info wow animate__animated animate__backInRight">
+
+                            <div class="manufacture__item">
+                                <p class="manufacture__item-title manufacture__item-title--one">
+                                    заявка и расчет проекта
+                                </p>
+                                <div class="manufacture__row">
+                                    <p class="manufacture__row-time">5 минут</p>
+                                    <p class="manufacture__row-desc">
+                                        Вы оставляете заявку и наш менеджер связывается с вами для обсуждения деталей
+                                        проекта.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="manufacture__item">
+                                <p class="manufacture__item-title manufacture__item-title--two">Документальная часть</p>
+                                <div class="manufacture__row">
+                                    <p class="manufacture__row-time">1-3 дней</p>
+                                    <p class="manufacture__row-desc">
+                                        Делаем чертеж будущего здания, обсуждаем подробную смету
+                                        и готовим коммерческое предложение.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="manufacture__item">
+                                <p class="manufacture__item-title manufacture__item-title--three">изготовление</p>
+                                <div class="manufacture__row">
+                                    <p class="manufacture__row-time">5-10 дней</p>
+                                    <p class="manufacture__row-desc">
+                                        После утверждения всех условий сотрудничества и внесения предоплаты мы запускаем
+                                        производство здания.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="manufacture__item">
+                                <p class="manufacture__item-title manufacture__item-title--four">доставка и монтаж</p>
+                                <div class="manufacture__row">
+                                    <p class="manufacture__row-time">1 час +</p>
+                                    <p class="manufacture__row-desc">
+                                        Доставляем заказ на локацию, монтируем и подключаем все коммуникации. Здание
+                                        готово
+                                        к эксплуатации.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a class="manufacture__info-link button-calculator" href="#calculation">
+                                бесплатный расчет проекта
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="clients">
+
+                <div class="container-fluid">
+
+                    <h3 class="clients__title title">нашими клиентами уже стали:</h3>
+
+                    <div class="clients__inner">
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-1.png"
+                                alt="clients images 1">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-2.png"
+                                alt="clients images 2">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-3.png"
+                                alt="clients images 3">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-4.png"
+                                alt="clients images 4">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-5.png"
+                                alt="clients images 5">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-6.png"
+                                alt="clients images 6">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-7.png"
+                                alt="clients images 7">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-8.png"
+                                alt="clients images 8">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-9.png"
+                                alt="clients images 9">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-10.png"
+                                alt="clients images 10">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-11.png"
+                                alt="clients images 11">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-12.png"
+                                alt="clients images 12">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-13.png"
+                                alt="clients images 13">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-14.png"
+                                alt="clients images 14">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-15.png"
+                                alt="clients images 15">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-16.png"
+                                alt="clients images 16">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-17.png"
+                                alt="clients images 17">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-18.png"
+                                alt="clients images 18">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-19.png"
+                                alt="clients images 19">
+                        </div>
+
+                        <div class="clients__item">
+                            <img class="clients__item-img" src="images/clients/clients-item-20.png"
+                                alt="clients images 20">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+            <section class="questions" id="questions">
+
+                <div class="container-fluid">
+
+                    <div class="questions__inner">
+
+                        <h3 class="questions__title title">Популярные вопросы и ответы</h3>
+
+                        <div class="questions__desc">
+
+                            <div class="questions__item">
+
+                                <div class="questions__top">
+                                    <div class="questions__top-img">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="black" />
+                                        </svg>
+                                    </div>
+                                    <p class="questions__top-title">
+                                        не будет ли холодно в модульном здании зимой?
+                                    </p>
+                                </div>
+
+                                <div class="questions__list">
+                                    <p class="questions__list-text">
+                                        В модульных зданиях тепло и уютно. Наши специалисты с легкостью подберут для вас
+                                        оптимальную плотность и толщину теплоизоляции, исходя из целевого назначения
+                                        модульного здания и климатического региона проживания.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="questions__item">
+
+                                <div class="questions__top">
+                                    <div class="questions__top-img">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="black" />
+                                        </svg>
+                                    </div>
+                                    <p class="questions__top-title">
+                                        как узнать стоимость здания и Почему она не указана на сайте?
+                                    </p>
+                                </div>
+
+                                <div class="questions__list">
+                                    <p class="questions__list-text">
+                                        Модульное строительство – это полностью уникальный проект, который создается
+                                        эксклюзивно под клиента и включает в себя отделочные материалы, габариты здания,
+                                        комплектацию помещений и многое другое. Исходя из этого, сложно указать
+                                        стоимость модульных зданий без индивидуального расчёта. Вы можете бесплатно
+                                        получить расчёт вашего здания, кликнув на кнопку “Получить расчет”.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="questions__item">
+
+                                <div class="questions__top">
+                                    <div class="questions__top-img">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="black" />
+                                        </svg>
+                                    </div>
+                                    <p class="questions__top-title">
+                                        почему стоит приехать на производство?
+                                    </p>
+                                </div>
+
+                                <div class="questions__list">
+
+                                    <p class="questions__list-text-title">Посещая наше производство, вы сможете:</p>
+
+                                    <ul class="questions__info">
+                                        <li class="questions__info-list list-check">познакомиться с компанией изнутри и
+                                            понаблюдать
+                                            за процессами;
+                                        </li>
+                                        <li class="questions__info-list list-check">убедиться в соблюдении надлежащих
+                                            условий
+                                            выполнения работ и хранения материалов;
+                                        </li>
+                                        <li class="questions__info-list list-check">наглядно познакомиться с технологией
+                                            и этапами
+                                            строительства;
+                                        </li>
+                                        <li class="questions__info-list list-check">получить детальную консультацию
+                                            инженера
+                                            проектировщика;
+                                        </li>
+                                        <li class="questions__info-list list-check">существенно сократить свое время на
+                                            обсуждение
+                                            деталей проекта.
+                                        </li>
+                                    </ul>
+                                    <p class="questions__list-text">
+                                        Мы настоятельно НЕ рекомендуем делать заказ у компаний-поставщиков, которые не
+                                        предоставляют клиенту возможность посетить их производство. Это может повлечь за
+                                        собой финансовые и временные потери.
+
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="questions__item">
+
+                                <div class="questions__top">
+                                    <div class="questions__top-img">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="black" />
+                                        </svg>
+                                    </div>
+                                    <p class="questions__top-title">
+                                        Сколько времени прослужит модульное здание?
+                                    </p>
+                                </div>
+
+                                <div class="questions__list">
+                                    <p class="questions__list-text-title">Срок службы модульного здания зависит от
+                                        нескольких параметров:
+                                    </p>
+
+                                    <ul class="questions__info">
+                                        <li class="questions__info-list list-check">правильно, согласно ДБН нагрузок
+                                            выбрано сечение металла;
+                                        </li>
+                                        <li class="questions__info-list list-check">правильный, согласно ДБН выполнен
+                                            сварной шов.
+                                        </li>
+                                    </ul>
+
+                                    <p class="questions__list-text">
+                                        ВАЖНО правильно определить функциональное назначение модульной конструкции для
+                                        грамотного выбора сечения металла. Модульная металлическая конструкция \ каркас,
+                                        которая соответствует ДБН, прослужит Вам более 15 лет.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="questions__item">
+
+                                <div class="questions__top">
+                                    <div class="questions__top-img">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="black" />
+                                        </svg>
+                                    </div>
+                                    <p class="questions__top-title">
+                                        Что выбрать: модульное здание из морского контейнера или на основе
+                                        металлокаркаса?
+                                    </p>
+                                </div>
+
+                                <div class="questions__list">
+                                    <p class="questions__list-text">
+                                    <p class="questions__list-text-title">Преимущества морского контейнера:</p>
+                                    <ul class="questions__info">
+                                        <li class="questions__info-list list-check">целостность металлического контура;
+                                        </li>
+                                        <li class="questions__info-list list-check">возможность ставить контейнеры друг
+                                            на друга в несколько этажей;
+                                        </li>
+                                        <li class="questions__info-list list-check">срок службы более 40 лет.</li>
+                                    </ul>
+
+                                    <p class="questions__list-text-title">Особенности морского контейнера:</p>
+                                    <ul class="questions__info">
+                                        <li class="questions__info-list list-check">ограниченные габаритные размеры;
+                                        </li>
+                                        <li class="questions__info-list list-check">высокая стоимость контейнера как
+                                            нового, так и б\у.
+                                        </li>
+                                    </ul>
+
+                                    <p class="questions__list-text-title">Преимущества модульной конструкции на основе
+                                        металла:
+                                    </p>
+                                    <ul class="questions__info">
+                                        <li class="questions__info-list list-check">
+                                            невысокая стоимость металлической конструкции в сравнении с морским
+                                            контейнером;
+                                        </li>
+                                        <li class="questions__info-list list-check">
+                                            возможность сборки при любых габаритных параметрах.
+                                        </li>
+                                    </ul>
+
+                                    <p class="questions__list-text-title">
+                                        Особенности модульной конструкции на основе
+                                        металла:
+                                    </p>
+                                    <ul class="questions__info">
+                                        <li class="questions__info-list list-check">усиление нижних этажей при
+                                            эксплуатации модульного здания в несколько этажей;
+                                        </li>
+                                        <li class="questions__info-list list-check">
+                                            правильно подобран металлический профиль;
+                                        </li>
+                                        <li class="questions__info-list list-check">
+                                            правильно, согласно ДБН, выполнен сварочный шов стыковки металла.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="questions__item">
+
+                                <div class="questions__top">
+                                    <div class="questions__top-img">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="black" />
+                                        </svg>
+                                    </div>
+                                    <p class="questions__top-title">
+                                        На какую основу можно ставить модульные здания?
+                                    </p>
+                                </div>
+
+                                <div class="questions__list">
+
+                                    <p class="questions__list-text-title">
+                                        Преимущество данного строительства в том, что оно не является капитальным, и для
+                                        него можно использовать следующие основания:
+                                    </p>
+
+                                    <ul class="questions__info">
+                                        <li class="questions__info-list list-check">бетонные блоки, асфальт, твердый
+                                            грунт, ровная
+                                            поверхность применяется для
+                                            негабаритных и легких конструкций;
+                                        </li>
+                                        <li class="questions__info-list list-check">ленточный фундамент, фундаментная
+                                            плита или
+                                            дорожные плиты для установки
+                                            тяжелых зданий, зданий в несколько этажей;
+                                        </li>
+                                        <li class="questions__info-list list-check">винтовые сваи для поверхностей с
+                                            большим
+                                            уклоном.
+                                        </li>
+                                    </ul>
+
+                                    <p class="questions__list-text">
+                                        Наш проектный отдел с радостью поможет вам в выборе типа основания или сделает
+                                        бесплатно расчет нагрузок на основание, для точного определения в выборе
+                                        фундаментной основы.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="questions__item">
+
+                                <div class="questions__top">
+                                    <div class="questions__top-img">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="black" />
+                                        </svg>
+                                    </div>
+                                    <p class="questions__top-title">
+                                        Вы доставляете по всей украине?
+                                    </p>
+                                </div>
+
+                                <div class="questions__list">
+                                    <p class="questions__list-text">
+                                        Да, у нас работает доставка по всей Украине. Мы долгое время сотрудничаем с
+                                        надёжными логистическими компаниями, которые бережно и в срок доставляют наши
+                                        модульные здания по всей территории Украины.
+
+                                        Благодаря наработанной курьерской базе, цены на доставку очень приятные. Кроме
+                                        того, по желанию клиента, мы страхуем груз на время транспортировки.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <footer class="footer">
+
+            <div class="container">
+
+                <div class="footer__inner">
+
+                    <a class="footer__logo" href="#">
+                        <picture class="footer__logo-images">
+                            <source srcset="images/footer/logo-small.svg" alt="mobile" media="(max-width: 400px)">
+                            <img src="images/footer/logo-large.svg" alt="Логотип">
+                        </picture>
+                    </a>
+
+                    <div class="footer__info">
+                        <a class="footer__phone" href="tel:0800330463">0 800 33 04 63</a>
+                        <a class="footer__email" href="mailto:spetsbudtrade@gmail.com">spetsbudtrade@gmail.com</a>
+                        <address class="footer__address">
+                            г. Одесса, ул. Николая Боровского, 31 A, Украина, 65031
+                        </address>
+                    </div>
+
+
+                    <div class="footer__desc">
+
+                        <form class="footer__form">
+                            <p class="footer__form-title">Подпишитесь на наши новости</p>
+                            <input class="footer__form-input" type="text" placeholder="Введите ваш email">
+                            <button class="footer__form-btn button">Подписаться</button>
+                        </form>
+
+                        <div class="footer__social">
+                            <a class="footer__social-link" href="#">
+                                <div class="footer__social-img">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20" cy="20" r="19.5" stroke="#666666" />
+                                        <path
+                                            d="M23.3438 14.3438V17H22C21.7708 17.0208 21.6042 17.1354 21.5 17.3438C21.3958 17.5312 21.3438 17.75 21.3438 18V19.6562H23.3438V22.3438H21.3438V27.6562H18.6562V22.3438H16.6562V19.6562H18.6562V17C18.6771 16.25 18.9375 15.625 19.4375 15.125C19.9375 14.625 20.5729 14.3646 21.3438 14.3438H23.3438Z"
+                                            fill="#FFBC16" />
+                                    </svg>
+                                </div>
+
+                            </a>
+
+                            <a class="footer__social-link" href="#">
+                                <div class="footer__social-img">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20" cy="20" r="19.5" stroke="#666666" />
+                                        <path
+                                            d="M17.1875 14.3438H22.8125C23.8958 14.3646 24.8021 14.7396 25.5312 15.4688C26.2604 16.1979 26.6354 17.1042 26.6562 18.1875V23.8125C26.6354 24.8958 26.2604 25.8021 25.5312 26.5312C24.8021 27.2604 23.8958 27.6354 22.8125 27.6562H17.1875C16.1042 27.6354 15.1979 27.2604 14.4688 26.5312C13.7396 25.8021 13.3646 24.8958 13.3438 23.8125V18.1875C13.3646 17.1042 13.7396 16.1979 14.4688 15.4688C15.1979 14.7396 16.1042 14.3646 17.1875 14.3438ZM17.0625 15.6562C16.375 15.6771 15.8021 15.9167 15.3438 16.375C14.9062 16.8125 14.6771 17.375 14.6562 18.0625V23.9375C14.6771 24.625 14.9062 25.1979 15.3438 25.6562C15.8021 26.0938 16.375 26.3229 17.0625 26.3438H22.9375C23.625 26.3229 24.1875 26.0938 24.625 25.6562C25.0833 25.1979 25.3229 24.625 25.3438 23.9375V18.0625C25.3229 17.375 25.0833 16.8125 24.625 16.375C24.1875 15.9167 23.625 15.6771 22.9375 15.6562H17.0625ZM23.5 16.6562C23.7292 16.6771 23.9167 16.7708 24.0625 16.9375C24.2292 17.0833 24.3125 17.2708 24.3125 17.5C24.3125 17.7292 24.2292 17.9271 24.0625 18.0938C23.9167 18.2396 23.7292 18.3125 23.5 18.3125C23.2708 18.3125 23.0729 18.2396 22.9062 18.0938C22.7604 17.9271 22.6875 17.7292 22.6875 17.5C22.6875 17.2708 22.7604 17.0833 22.9062 16.9375C23.0729 16.7708 23.2708 16.6771 23.5 16.6562ZM20 17.6562C20.9375 17.6771 21.7188 18.0104 22.3438 18.6562C22.9896 19.2812 23.3229 20.0625 23.3438 21C23.3229 21.9375 22.9896 22.7292 22.3438 23.375C21.7188 24 20.9375 24.3229 20 24.3438C19.0625 24.3229 18.2708 24 17.625 23.375C17 22.7292 16.6771 21.9375 16.6562 21C16.6771 20.0625 17 19.2812 17.625 18.6562C18.2708 18.0104 19.0625 17.6771 20 17.6562ZM20 19C19.4375 19.0208 18.9688 19.2188 18.5938 19.5938C18.2188 19.9688 18.0312 20.4375 18.0312 21C18.0312 21.5625 18.2188 22.0312 18.5938 22.4062C18.9688 22.7812 19.4375 22.9688 20 22.9688C20.5625 22.9688 21.0312 22.7812 21.4062 22.4062C21.7812 22.0312 21.9688 21.5625 21.9688 21C21.9688 20.4375 21.7812 19.9688 21.4062 19.5938C21.0312 19.2188 20.5625 19.0208 20 19Z"
+                                            fill="#FFBC16" />
+                                    </svg>
+                                </div>
+
+                            </a>
+
+                            <a class="footer__social-link" href="#">
+                                <div class="footer__social-img">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20" cy="20" r="19.5" stroke="#666666" />
+                                        <path
+                                            d="M18.6562 24V18L22.6562 21L18.6562 24ZM25.3438 15.9375C25.0938 15.875 24.4583 15.8125 23.4375 15.75C22.4167 15.6875 21.2708 15.6562 20 15.6562C18.7292 15.6562 17.5833 15.6875 16.5625 15.75C15.5417 15.7917 14.9062 15.8438 14.6562 15.9062C14.1562 16.1354 13.8021 16.7292 13.5938 17.6875C13.4062 18.6458 13.3125 19.75 13.3125 21C13.3125 22.2292 13.4062 23.3333 13.5938 24.3125C13.8021 25.2708 14.1562 25.8542 14.6562 26.0625C14.9062 26.1458 15.5417 26.2188 16.5625 26.2812C17.5833 26.3229 18.7292 26.3438 20 26.3438C21.2708 26.3438 22.4167 26.3229 23.4375 26.2812C24.4583 26.2188 25.0938 26.1458 25.3438 26.0625C25.8438 25.8542 26.1875 25.2708 26.375 24.3125C26.5833 23.3333 26.6875 22.2292 26.6875 21C26.6875 19.75 26.5833 18.6458 26.375 17.6875C26.1875 16.7292 25.8438 16.1458 25.3438 15.9375Z"
+                                            fill="#FFBC16" />
+                                    </svg>
+                                </div>
+
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <div class="button__up">
+        <img class="button__up-img" src="images/icon/button_up.svg" alt="Вверх">
+    </div>
+
+    <div id="calculation" class="calculation mfp-hide white-popup">
+        <div class="calculation__inner">
+            <h4 class="calculation__title modal-title">Получить Бесплатный расчет проекта</h4>
+            <p class="calculation__text">
+                Заполните форму и наш менеджер свяжется с вами для получения детальной информации
+            </p>
+
+            <form class="calculation__form">
+                <input class="calculation__form-name modal-input" type="text" placeholder="Ваше имя" checked>
+                <input class="calculation__form-phone modal-input" type="text" placeholder="+38 ___ ___ __ __" checked>
+                <input class="calculation__form-email modal-input" type="text" placeholder="Ваш email" checked>
+                <button class="calculation__form-btn button-arrow" type="submit" href="#thanks">Получить расчет
+                    проекта</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="catalog" class="catalog mfp-hide white-popup">
+        <div class="catalog__inner">
+            <h4 class="catalog__title modal-title">получить каталог</h4>
+            <p class="catalog__text">
+                Заполните форму и наш менеджер вышлет на вашу электронную почту каталог с нашими работами
+            </p>
+
+            <form class="catalog__form">
+                <input class="catalog__form-name modal-input" type="text" placeholder="Ваше имя" checked>
+                <input class="catalog__form-phone modal-input" type="text" placeholder="+38 ___ ___ __ __" checked>
+                <input class="catalog__form-email modal-input" type="text" placeholder="Ваш email" checked>
+                <button class="catalog__form-btn button-arrow" type="submit" href="#thanks">Получить каталог</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="back-call" class="back-call mfp-hide white-popup">
+        <div class="back-call__inner">
+            <h4 class="back-call__title modal-title">Заказ обратного звонка</h4>
+            <p class="back-call__text">
+                Заполните форму и наш менеджер свяжется с вами в кратчайший срок
+            </p>
+
+            <form class="back-call__form">
+                <input class="back-call__form-name modal-input" type="text" placeholder="Ваше имя" checked>
+                <input class="back-call__form-phone modal-input" type="text" placeholder="+38 ___ ___ __ __" checked>
+                <button class="back-call__form-btn button-arrow" type="submit" href="#thanks">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="making" class="making mfp-hide white-popup">
+        <div class="making__inner">
+            <h4 class="making__title modal-title">приехать на производство</h4>
+            <p class="making__text">
+                Заполните форму и наш менеджер свяжется с вами для согласования даты и места встречи
+            </p>
+
+            <form class="making__form">
+                <input class="making__form-name modal-input" type="text" placeholder="Ваше имя" checked>
+                <input class="making__form-phone modal-input" type="text" placeholder="+38 ___ ___ __ __" checked>
+                <input class="making__form-email modal-input" type="text" placeholder="Ваш email" checked>
+                <button class="making__form-btn button-arrow" type="submit" href="#thanks">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="thanks" class="thanks mfp-hide white-popup">
+        <div class="thanks__inner">
+            <img class="thanks__images" src="images/modal/sbt.svg" alt="thanks images">
+            <h4 class="thanks__title">Спасибо!</h4>
+            <p class="thanks__text">
+                Скоро с Вами свяжется наш менеджер
+            </p>
+        </div>
+    </div>
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
